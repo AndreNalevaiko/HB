@@ -1,2 +1,0 @@
-recursive-include gorillassite/web/templates *
-recursive-include gorillassite/web/static *

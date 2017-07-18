@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /contato
-Disallow: /contato.html
-Disallow: /imagens

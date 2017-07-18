@@ -1,6 +1,0 @@
-git+git://github.com/gorillascode/gorillaspy.git@v2.4.0#egg=GorillasPy-2.4.0
-flask==0.10.1
-flask-mail==0.9.1
-flask-wtf==0.12
-PyYAML==3.11
-slacker==0.9.15
