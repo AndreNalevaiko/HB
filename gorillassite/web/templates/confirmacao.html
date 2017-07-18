@@ -1,0 +1,22 @@
+{% extends "layout/base.html" %}
+{% block content %}
+    <section id="sobre" class="gorilla-section">
+
+        {% include 'parallax/meeting.html' %}
+
+        <div class="container gorilla-content">
+
+            <div class="col-md-12">
+                <h1>Recebemos sua mensagem</h1>
+
+                <h2 class="text-justify">Um de nossos engenheiros entrará em contato no email <a>{{ mail }}</a>.</h2>
+
+                <p class="lead">Nós respondemos todos contatos em menos de 24 horas.</p>
+
+                <p class="lead">Um abraço,<br>Equipe GorillasCode.</p>
+            </div>
+
+        </div>
+
+    </section>
+{% endblock %}

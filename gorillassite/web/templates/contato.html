@@ -1,0 +1,54 @@
+{% extends "layout/base.html" %}
+{% block content %}
+    {% macro render_field(field) -%}
+         <div class="form-group {% if field.errors %}has-error{% endif %} {{ kwargs.pop('class_', '') }}">
+            {{ field(class_='form-control', **kwargs) }}
+            {% if field.errors %}
+                {% for e in field.errors %}
+                    <p class="help-block">{{ e }}</p>
+                {% endfor %}
+            {% endif %}
+        </div>
+    {%- endmacro %}
+    <section id="sobre" class="gorilla-section">
+
+        {% include 'parallax/meeting.html' %}
+
+        <div class="container gorilla-content" style="padding-bottom: 15px;">
+
+            <div class="col-md-12">
+                <h1>Nós vamos ajudar você</h1>
+
+                <h2>Entre em contato pelo telefone <span id="contact.phone" class="info gorillas-contact-phone"></span></h2>
+                <h2 class="text-justify">Ou nos envie o que você precisa? Teremos muito prazer em ajudar.</h2>
+            </div>
+
+            <div class="col-md-12">
+
+                <div class="row">
+
+                    <div class="col-md-8">
+
+                        <form class="gorilla-contact-form" method="POST" action="/contato">
+                            {{ form.csrf_token }}
+                            {{ render_field(form.name, placeholder='Qual é o seu nome?') }}
+                            {{ render_field(form.mail, placeholder='Qual email você utiliza?') }}
+                            {{ render_field(form.phone, placeholder='Qual seu telefone?') }}
+                            {{ render_field(form.message, placeholder='Explique brevemente o que precisa!', rows=5) }}
+                            {{ render_field(form.recaptcha) }}
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-success">Enviar</button>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+{% endblock %}

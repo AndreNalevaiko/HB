@@ -1,0 +1,58 @@
+{
+  "package" : {
+    "mvp": {
+      "currency": "R$",
+      "price": "48.600",
+      "time": "2 meses de projeto"
+    },
+    "monetize": {
+      "currency": "R$",
+      "price": "81.000",
+      "time": "4 meses de projeto"
+    },
+    "scale": {
+      "currency": "R$",
+      "price": "129.600",
+      "time": "6 meses de projeto"
+    }
+  },
+  "additional": {
+    "dev": {
+      "price": "R$ 9.500,00"
+    },
+    "spec": {
+      "price": "R$ 4.700,00"
+    },
+    "prototype": {
+      "price": "R$ 9.500,00"
+    },
+    "deploy": {
+      "price": "R$ 4.200,00"
+    },
+    "cycle": {
+      "price": "R$ 16.200,00"
+    },
+    "monitoring": {
+      "price": "R$ 500,00"
+    },
+    "actuation": {
+      "price": "R$ 160,00"
+    },
+    "spotdemand": {
+      "price": "R$ 1.900,00"
+    },
+    "stresstest": {
+      "price": "R$ 11.900,00"
+    },
+    "usabilitytest": {
+      "price": "R$ 5.700,00"
+    }
+  },
+  "address":  {
+    "line2": "Marechal Deodoro, 869, Sala 706 - Centro",
+    "line1": "Curitiba – Paraná - Brasil"
+  },
+  "contact": {
+    "phone": "41 3121 7777"
+  }
+}

@@ -1,0 +1,876 @@
+/* Custom Boostrap */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #666;
+}
+
+p, div{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #666;
+}
+
+section:first-child {
+}
+
+footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: rgb(52, 52, 52);
+}
+
+.center-block {
+  float: none;
+  text-align: center;
+}
+
+.jumbotron {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+}
+
+.jumbotron hr {
+  border-color: rgb(200, 200, 200);
+}
+
+.navbar-collapse {
+  background-color: rgb(248, 248, 248);
+}
+
+.navbar-nav>li>a {
+  color: rgb(83, 83, 83);
+  line-height: 21px;
+}
+
+.navbar-brand {
+  padding-right: 0;
+  padding-top: 5px;
+}
+
+/* Fim Custom Boostrap */
+
+/* Novos CSS */
+
+.fit {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.gorillas-logo {
+  width: 76%;
+}
+
+.gorilla-menu {
+  z-index: 9999;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-bottom: 1px solid rgb(201, 201, 201);
+  height: 52px;
+  margin-bottom: 0;
+}
+
+.navbar-nav>li>a.gorilla-contact-button  {
+  color: rgb(255, 255, 255);
+  background-color: rgb(70, 183, 67);
+  border-color: rgb(76, 174, 76);
+}
+
+.navbar-nav>li>a.gorilla-contact-button:active,
+.navbar-nav>li>a.gorilla-contact-button:focus,
+.navbar-nav>li>a.gorilla-contact-button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(68, 157, 68);
+  border-color: rgb(57, 132, 57);
+}
+
+.gorilla-menu a {
+  font-size: 15px;
+}
+
+.gorilla-parallax {
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  padding: 100px 0;
+  height: 550px;
+  z-index: 1;
+}
+
+.gorilla-parallax-lead {
+  background: rgba(255,255,255,0.3);
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+  text-align: center
+}
+
+.gorilla-parallax-lead h1 {
+  font-weight: 700;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+  text-align: left;
+  color: rgb(240,240,240); /*#B1CD35;*/
+  margin: 0px 0px 10px 0px;
+}
+
+.gorilla-parallax-lead h1:first-child {
+  padding-top: 10px;
+}
+
+.gorilla-content {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.gorilla-content h1 {
+  color: #6F923F;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+@media (max-width: 768px) {
+  .gorilla-content h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 340px) {
+  .gorilla-content h1 {
+    font-size: 26px;
+  }
+}
+
+.gorilla-content h2 {
+  color: #666;
+  font-size: 24px;
+}
+
+.gorilla-content h3 {
+  color: #666;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.gorilla-content-lead h1 {
+  color: #6F923F;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.1;
+}
+
+@media (max-width: 340px) {
+  .gorilla-content-lead h1 {
+    font-size: 26px;
+  }
+}
+
+.gorilla-content-lead h2 {
+  color: #666;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.gorilla-content-lead h3 {
+  color: #666;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.gorilla-content-lead h4 {
+  color: #666;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.gorilla-content-lead p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.gorilla-content-lead p:last-child {
+  margin-bottom: 20px;
+}
+
+/* Service -----------------*/
+
+.gorilla-image-strip {
+    position:absolute;
+    left:0;
+    right:0;
+    background-color: rgb(225, 94, 90);
+    height: 295px;
+}
+
+.gorilla-service {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.gorilla-service h1 {
+  color: #6F923F;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.1;
+}
+
+@media (max-width: 340px) {
+  .gorilla-service h1 {
+    font-size: 26px;
+  }
+}
+
+.gorilla-service h2 {
+  color: #666;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.gorilla-service p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* Delivery -----------------*/
+.gorilla-delivery h1 {
+  color: #6F923F;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.1;
+}
+
+@media (max-width: 340px) {
+  .gorilla-delivery h1 {
+    font-size: 26px;
+  }
+}
+
+.gorilla-delivery h2 {
+  color: #666;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.gorilla-delivery p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.gorilla-delivery p:last-child {
+  margin-bottom: 20px;
+}
+
+/* Package -----------------*/
+
+@media (min-width: 992px) {
+  .gorilla-content-package {
+    margin-top: 80px;
+  }
+}
+
+.gorilla-package {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0 10px 0;
+  padding: 20px 20px 64px 20px;
+  background-color: rgb(238, 238, 238);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+}
+
+.gorilla-package-popular {
+  border: 1px solid #5a9f5c;
+  margin: 10px 0 10px 0;
+  padding: 20px 20px 0 20px;
+  background-color: rgb(238, 238, 238);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+}
+
+.gorilla-package:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.gorilla-package-popular .tag {
+  background-color: #5a9f5c;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 20px -20px 0 -20px;
+  min-height: inherit;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.gorilla-package h1 {
+  color: #6F923F;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  line-height: 1.1;
+  margin-bottom: 0;
+}
+
+@media (max-width: 340px) {
+  .gorilla-package h1 {
+    font-size: 26px;
+  }
+}
+
+.gorilla-package h2 {
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+@media (max-width: 1200px) {
+  .gorilla-package h2 {
+    font-size: 20px;
+  }
+}
+
+.gorilla-package h3 {
+  color: #404040;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.gorilla-package h3 .price {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.gorilla-package p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.gorilla-package h3~p {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.gorilla-package>div {
+  min-height: 250px;
+}
+
+@media (max-width: 1200px) {
+    .gorilla-package>div {
+        min-height: 500px;
+    }
+}
+
+@media (max-width: 992px) {
+    .gorilla-package p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px) {
+    .gorilla-package>div {
+        min-height: 80px;
+    }
+}
+
+.gorilla-package hr {
+  border-color: #dcdcdc;
+}
+
+.gorilla-package .icon {
+  text-align: center;
+}
+
+.gorilla-package .icon img {
+  max-width: 242px;
+}
+
+@media (min-width: 992px) {
+  .gorilla-package .icon.mvp {
+    margin-top: 12px;
+  }
+
+  .gorilla-package .icon.scale {
+    margin-top: -145px;
+  }
+}
+
+.gorilla-package ul.features {
+  color: #6f9247;
+  font-size: 18px;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .gorilla-package ul.features {
+    min-height: 470px;
+  }
+}
+
+.gorilla-package ul.features li {
+  margin: 20px 0;
+}
+
+.gorilla-package ul.features strong {
+  display: block;
+  text-transform: uppercase;
+}
+
+.gorilla-package button.more-info {
+  background-color: #46b743;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  height: 75px;
+  margin: 20px auto 0 auto;
+  max-width: 288px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.gorilla-package button.more-info:hover {
+  background-color: rgb(68, 157, 68);
+  border-color: rgb(57, 132, 57);
+  color: rgb(255, 255, 255);
+}
+
+
+/* Additional -----------------*/
+
+
+.gorilla-additional {
+  margin: 10px 0 10px 0;
+  padding: 10px 10px 10px 10px;
+  background-color: rgb(238, 238, 238);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+}
+
+.gorilla-additional:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+.gorilla-additional h1 {
+  color: #6F923F;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.gorilla-additional h3 {
+  color: #666;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.gorilla-additional p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.gorilla-additional h3~p {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.gorilla-additional>div {
+  min-height: 160px;
+}
+
+@media (max-width: 1200px) {
+    .gorilla-additional>div {
+        min-height: 250px;
+    }
+}
+
+@media (max-width: 992px) {
+    .gorilla-additional p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px) {
+    .gorilla-additional>div {
+        min-height: 80px;
+    }
+}
+
+.gorilla-additional hr {
+  border-color: rgb(200, 200, 200);
+}
+
+/* Partnership -----------------*/
+
+.gorilla-partnership {
+  margin: 10px 0 10px 0;
+  padding: 10px 10px 10px 10px;
+  border: 5px solid rgb(238, 238, 238);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+}
+
+.gorilla-partnership:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.gorilla-partnership h1 {
+  color: #6F923F;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.gorilla-partnership h3 {
+  color: #666;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.gorilla-partnership p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.gorilla-partnership h3~p {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.gorilla-partnership>div {
+  min-height: 190px;
+}
+
+@media (max-width: 1200px) {
+    .gorilla-partnership>div {
+        min-height: 280px;
+    }
+}
+
+@media (max-width: 992px) {
+    .gorilla-partnership p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px) {
+    .gorilla-partnership>div {
+        min-height: 130px;
+    }
+}
+
+.gorilla-partnership>hr {
+  margin-bottom: 10px;
+}
+
+.gorilla-partnership hr {
+  border-color: rgb(200, 200, 200);
+}
+
+.gorilla-partnership>a.gorilla-contact-button  {
+  color: rgb(255, 255, 255);
+  background-color: rgb(70, 183, 67);
+  border-color: rgb(76, 174, 76);
+  font-size: 15px;
+  padding: 10px 10px 10px 10px;
+}
+
+.gorilla-partnership>a.gorilla-contact-button:active,
+.gorilla-partnership>a.gorilla-contact-button:focus,
+.gorilla-partnership>a.gorilla-contact-button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(68, 157, 68);
+  border-color: rgb(57, 132, 57);
+}
+
+
+
+
+/* knowhow -----------------*/
+
+.gorilla-knowhow {
+    margin: 10px 0 10px 0;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(238, 238, 238);
+}
+
+.gorilla-knowhow h1 {
+  color: #6F923F;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.1;
+}
+
+@media (max-width: 340px) {
+  .gorilla-knowhow h1 {
+    font-size: 26px;
+  }
+}
+
+.gorilla-knowhow h2 {
+  color: #666;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 10px;
+  min-height: 50px;
+}
+
+.gorilla-knowhow p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.gorilla-knowhow p:last-child {
+  margin-bottom: 20px;
+}
+
+/* Clients -----------------*/
+
+.gorilla-clients ul.clients {
+  list-style: none;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.gorilla-clients ul.clients li:not(:last-child) {
+  display: block;
+  margin-bottom: 60px;
+}
+
+.gorilla-clients .clients img {
+  filter: grayscale(100%);
+  max-width: 100%;
+  opacity: 0.8;
+  transition: all 0.2s ease-in-out;
+  width: 230px;
+}
+
+.gorilla-clients .clients img:hover {
+  filter: none;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+
+@media (min-width: 992px) {
+  .gorilla-clients ul.clients li {
+    display: inline-block !important;
+  }
+
+  .gorilla-clients ul.clients img {
+    height: 50px;
+    width: auto;
+  }
+}
+
+/* -----------------*/
+
+.gorilla-content-gray {
+  background-color: rgb(240, 240, 240);
+}
+
+.gorilla-contact-button {
+  font-weight: bold;
+  z-index: 1;
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  background-color: rgb(70, 183, 67);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 340px) {
+  .gorilla-contact-button {
+    font-size: 26px;
+  }
+}
+
+.gorilla-contact-button:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.gorilla-section>div:first-child {
+  padding-top: 10px;
+}
+
+.gorilla-section>div:last-child {
+  padding-bottom: 75px;
+}
+
+.gray-icon {
+  filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+.gray-icon:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+.gorilla-carousel {
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+
+.gorillas-carousel>.carousel-inner {
+}
+
+.gorilla-carousel>.carousel-control {
+  background-image: none !important;
+  color: #6F923F;
+  width: 5% !important;
+}
+
+.gorilla-carousel>.carousel-indicators {
+  bottom: -40px;
+}
+
+.gorilla-carousel>.carousel-indicators li {
+  border-color: rgb(102, 102, 102);
+}
+
+.gorilla-carousel>.carousel-indicators li.active {
+  background-color: rgb(102, 102, 102);
+}
+
+.gorilla-contact>.gorilla-contact-logo {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.gorilla-contact {
+  /*display: none;*/
+  padding-top: 15px;
+  padding-bottom: 15px !important;
+}
+
+.gorilla-contact h1 {
+  color: #6F923F;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  margin: 0;
+}
+
+@media (max-width: 340px) {
+  .gorilla-contact h1 {
+    font-size: 26px;
+  }
+}
+
+.gorilla-contact>.gorilla-contact-about>h1 {
+  color: rgb(102, 102, 102);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.gorilla-contact>.gorilla-contact-about>h2 {
+  color: rgb(102, 102, 102);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.gorillas-contact-phone {
+  font-size: 32px;
+  color: #6F923F;
+  font-weight: 500;
+}
+
+.gorilla-contact-form {
+    margin-top: 15px;
+}
+
+.gorilla-copyright {
+  margin-top: 15px;
+}
+
+.gorilla-copyright>p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* Social icons & buttons -----------------*/
+
+.gorilla-contact-social {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.gorilla-contact-social a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.gorilla-contact-social a img {
+  width: 40px;
+}
+
+
+/* Fim Novos CSS */
